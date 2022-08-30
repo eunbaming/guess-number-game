@@ -2,7 +2,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-image: url(soju.jpeg);
-  background-position: 110% 30%;
+  background-position: 70% 30%;
   display: flex;
   justify-content: center;
   align-items: center;
