@@ -1,0 +1,98 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  background-image: url(soju.jpeg);
+  background-position: 110% 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jua', sans-serif;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+.container {
+  border: 5px solid greenyellow;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(217, 247, 99, 0.53);
+  padding: 20px 0;
+}
+
+.pre-title {
+  font-size: 5vw;
+}
+
+.title {
+  font-size: 10vw;
+  color: blue;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 7vw;
+}
+
+.main-img {
+  width: 15rem;
+  height: 10rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.user-input {
+  height: 80px;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.footer-btn {
+  margin-left: 10px;
+}
+
+.btn-style {
+  height: 80px;
+  width: 100px;
+  font-size: 20pt;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn1 {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.btn2 {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    max-height: 820px;
+  }
+}
+
+@media screen and (max-width:48rem) {
+  .container {
+    max-width: 960px;
+    max-height: 820px;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .user-input {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .btn-style {
+    height: 50px;
+  }
+}
